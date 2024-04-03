@@ -1,0 +1,7 @@
+
+s
+java:S3457	"Q%n should be used in place of \n to produce the platform-specific line separator.(äÝ¥Áþÿÿÿÿ8Üíñ«ê1
+@
+java:S3457	"%String contains no format specifiers.(äÝ¥Áþÿÿÿÿ
+E	java:S106	"+Replace this use of System.out by a logger.(äÝ¥Áþÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(Ðö¶žüÿÿÿÿ
