@@ -1,0 +1,14 @@
+
+b	java:S101
+"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ê× û
+@	java:S106"+Replace this use of System.out by a logger.(ğÖ
+@	java:S106 "+Replace this use of System.out by a logger.(ö¾Íˆ
+@	java:S106*"+Replace this use of System.out by a logger.(ğÖ
+@	java:S1065"+Replace this use of System.out by a logger.(¬¡É
+@	java:S1068"+Replace this use of System.out by a logger.(½Ìõß
+Q	java:S1257"<This block of commented-out lines of code should be removed.(®¹è
+@	java:S106;"+Replace this use of System.out by a logger.(ùßßÆ
+E	java:S106="+Replace this use of System.out by a logger.(ÿã¥ºüÿÿÿÿ
+V	java:S125>"<This block of commented-out lines of code should be removed.(ï¾‘øÿÿÿÿ
+L
+java:S1144"7Remove this unused private "showHashAlgorithms" method.(€®¾

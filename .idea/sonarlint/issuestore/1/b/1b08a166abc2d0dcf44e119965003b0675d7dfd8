@@ -1,0 +1,30 @@
+
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çóÅ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”Ğø–şÿÿÿÿ
+f	java:S117""QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾ÿ§Á
+]
+java:S1659"BDeclare "hash2" and all following declarations on a separate line.(Œ’Îéıÿÿÿÿ
+E
+java:S1481"*Remove this unused "hash1" local variable.(Œ’Îéıÿÿÿÿ
+E
+java:S1481"*Remove this unused "hash2" local variable.(Œ’Îéıÿÿÿÿ
+E
+java:S1481"*Remove this unused "hash3" local variable.(Œ’Îéıÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(íıığ
+E	java:S106"+Replace this use of System.out by a logger.(³úü®ÿÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(ÍœŞàøÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(ÍÿÀ
+E	java:S106"+Replace this use of System.out by a logger.(Èşú«üÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(½Ïº™øÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(ÚŞŞ×úÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(ÍÈóÀüÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(—¢Ïşÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(µÄÊªÿÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(—“Ÿ
+@	java:S106"+Replace this use of System.out by a logger.(ÔÒ»ò
+E	java:S106"+Replace this use of System.out by a logger.(ºëë½ıÿÿÿÿ
+E	java:S106!"+Replace this use of System.out by a logger.(¬­«üÿÿÿÿ
+E	java:S106#"+Replace this use of System.out by a logger.(¥¿»Üøÿÿÿÿ
+@	java:S106$"+Replace this use of System.out by a logger.(ıˆÌÁ
+?	java:S106%"+Replace this use of System.out by a logger.(Š˜¨
+Q	java:S125'"<This block of commented-out lines of code should be removed.(¸ñù¿

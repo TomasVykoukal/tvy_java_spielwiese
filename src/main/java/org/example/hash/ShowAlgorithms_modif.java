@@ -63,7 +63,6 @@ public class ShowAlgorithms_modif {
                     algos.add(service);
                 }*/
             }
-
         }
     }
 }
