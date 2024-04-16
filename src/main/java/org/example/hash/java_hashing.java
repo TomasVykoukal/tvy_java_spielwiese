@@ -4,7 +4,7 @@ import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
-//a naive user's test of hashing mechanisms in java
+//A Naive User's Test of Hashing Mechanisms in Java
 public class java_hashing {
     public static String[] algs = new String[21];
 
