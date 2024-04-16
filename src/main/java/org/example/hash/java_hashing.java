@@ -4,10 +4,11 @@ import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
-
+//a naive user's test of hashing mechanisms in java
 public class java_hashing {
     public static String[] algs = new String[21];
 
+    //function to convert byte array to hexadecimal string
     public static String ConvBytes2Hex(byte[] bytes_str) {
         StringBuffer sb = new StringBuffer();
         for (byte b : bytes_str) {
@@ -48,16 +49,17 @@ public class java_hashing {
         byte[] hash1_b, hash2_b, hash3_b;
         String hash1, hash2, hash3;
 
+        System.out.println("Text(s) to be hashed:");
         System.out.println(text1 + ", " + text2);
         System.out.println(text3);
 
-        System.out.println("Java-Native Hash Function");
+        System.out.println("\nHashing by Java-native Hash Function:");
         System.out.println(text1.hashCode() + ", " + text2.hashCode());
         System.out.println(text3.hashCode());
 
-        System.out.println("\nbyte[] Check: " + new String(text1_b, StandardCharsets.UTF_8));
+        System.out.println("\nText to be hashed as byte[] Input (Check Output): " + new String(text1_b, StandardCharsets.UTF_8));
 
-        System.out.println("Algorithms via MessageDigest incl. Digest Length");
+        System.out.println("Hashing by MessageDigest with different Algorithms incl. Digest Length:");
         for (int i = 0; i < algs.length; i++) {
             System.out.print((i+1) + ". \"" + algs[i] + "\"\t");
             MessageDigest md = MessageDigest.getInstance(algs[i]);
