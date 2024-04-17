@@ -1,0 +1,36 @@
+"C:\Program Files\Java\jdk-18.0.1.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\lib\idea_rt.jar=52150:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.5\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath "C:\Doku\Know-How\Programmierung (Java, C)\tvy_java_spielwiese\target\classes" org.example.hash.java_hashing
+Text(s) to be hashed:
+Hello world!
+Hello World!
+Hello world!
+
+Hashing by Java-native hash function hashCode():
+-52966915
+-969099747
+-52966915
+
+Hashing by public class MessageDigest employing different algorithms (integer in brackets denotes digest length):
+Text to be hashed in byte[] format (output check): Hello world!
+1. "SHA-1"	(20) d3486ae9136e7856bc42212385ea797094475802
+2. "SHA1"	(20) d3486ae9136e7856bc42212385ea797094475802
+3. "SHA"	(20) d3486ae9136e7856bc42212385ea797094475802
+4. "MD2"	(16) 63503d3117ad33f941d20f57144ece64
+5. "MD5"	(16) 86fb269d190d2c85f6e0468ceca42a20
+6. "SHA-512/256"	(32) f8162ad49196c1c12bddbcff1d362ddacf03ae246b6a7864b75c244b965fe475
+7. "SHA512/256"	(32) f8162ad49196c1c12bddbcff1d362ddacf03ae246b6a7864b75c244b965fe475
+8. "SHA3-512"	(64) 95decc72f0a50ae4d9d5378e1b2252587cfc71977e43292c8f1b84648248509f1bc18bc6f0b0d0b8606a643eff61d611ae84e6fbd4a2683165706bd6fd48b334
+9. "SHA-256"	(32) c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a
+10. "SHA256"	(32) c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a
+11. "SHA-384"	(48) 86255fa2c36e4b30969eae17dc34c772cbebdfc58b58403900be87614eb1a34b8780263f255eb5e65ca9bbb8641cccfe
+12. "SHA384"	(48) 86255fa2c36e4b30969eae17dc34c772cbebdfc58b58403900be87614eb1a34b8780263f255eb5e65ca9bbb8641cccfe
+13. "SHA-512/224"	(28) b48c4994a3d2b6b48ae7fa6fcc09f33dc0c985109c0b7493fd3c74d0
+14. "SHA512/224"	(28) b48c4994a3d2b6b48ae7fa6fcc09f33dc0c985109c0b7493fd3c74d0
+15. "SHA-512"	(64) f6cde2a0f819314cdde55fc227d8d7dae3d28cc556222a0a8ad66d91ccad4aad6094f517a2182360c9aacf6a3dc323162cb6fd8cdffedb0fe038f55e85ffb5b6
+16. "SHA512"	(64) f6cde2a0f819314cdde55fc227d8d7dae3d28cc556222a0a8ad66d91ccad4aad6094f517a2182360c9aacf6a3dc323162cb6fd8cdffedb0fe038f55e85ffb5b6
+17. "SHA3-256"	(32) d6ea8f9a1f22e1298e5a9506bd066f23cc56001f5d36582344a628649df53ae8
+18. "SHA-224"	(28) 7e81ebe9e604a0c97fef0e4cfe71f9ba0ecba13332bde953ad1c66e4
+19. "SHA224"	(28) 7e81ebe9e604a0c97fef0e4cfe71f9ba0ecba13332bde953ad1c66e4
+20. "SHA3-384"	(48) f9210511d0b2862bdcb672daa3f6a4284576ccb24d5b293b366b39c24c41a6918464035ec4466b12e22056bf559c7a49
+21. "SHA3-224"	(28) d3ee9b1ba1990fecfd794d2f30e0207aaa7be5d37d463073096d86f8
+
+Process finished with exit code 0

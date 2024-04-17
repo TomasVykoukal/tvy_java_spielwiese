@@ -4,7 +4,7 @@ import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
-//A Naive User's Test of Hashing Mechanisms in Java
+//A naive user's test of hashing mechanisms in Java
 public class java_hashing {
     public static String[] algs = new String[21];
 
@@ -18,6 +18,7 @@ public class java_hashing {
     }
 
     public static void main(String[] args) throws NoSuchAlgorithmException {
+        //*** declaration part ***
         algs[0]  = "SHA-1"; //todo: select contents programmatically - s. public class ShowAlgorithms*
         algs[1]  = "SHA1";
         algs[2]  = "SHA";
@@ -49,17 +50,20 @@ public class java_hashing {
         byte[] hash1_b, hash2_b, hash3_b;
         String hash1, hash2, hash3;
 
+        //*** output part ***
         System.out.println("Text(s) to be hashed:");
-        System.out.println(text1 + ", " + text2);
+        System.out.println(text1);
+        System.out.println(text2);
         System.out.println(text3);
 
-        System.out.println("\nHashing by Java-native Hash Function:");
-        System.out.println(text1.hashCode() + ", " + text2.hashCode());
+        System.out.println("\nHashing by Java-native hash function hashCode():");
+        System.out.println(text1.hashCode());
+        System.out.println(text2.hashCode());
         System.out.println(text3.hashCode());
 
-        System.out.println("\nText to be hashed as byte[] Input (Check Output): " + new String(text1_b, StandardCharsets.UTF_8));
+        System.out.println("\nHashing by public class MessageDigest employing different algorithms (integer in brackets denotes digest length):");
+        System.out.println("Text to be hashed in byte[] format (output check): " + new String(text1_b, StandardCharsets.UTF_8));
 
-        System.out.println("Hashing by MessageDigest with different Algorithms incl. Digest Length:");
         for (int i = 0; i < algs.length; i++) {
             System.out.print((i+1) + ". \"" + algs[i] + "\"\t");
             MessageDigest md = MessageDigest.getInstance(algs[i]);
